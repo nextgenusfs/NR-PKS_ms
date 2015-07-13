@@ -10,11 +10,11 @@ import sys
 import os
 from Bio import SeqIO
 import argparse
-from os.path import expanduser
-home = expanduser("~")
 
+#get script path for directory
+script_path = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 #define HMM db here
-hmm_db = home + '/projects/DB/HMM'
+hmm_db = script_path 
 
 class MyFormatter(argparse.ArgumentDefaultsHelpFormatter):
     def __init__(self,prog):
