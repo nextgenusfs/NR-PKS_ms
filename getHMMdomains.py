@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#script takes input protein fasta and HMM model to pull out those domains
+#script takes input protein fasta and HMM model to pull out those domains in fasta format
 #written by Jon Palmer palmer.jona at gmail dot com
 import warnings
 with warnings.catch_warnings():
