@@ -10,6 +10,7 @@ import sys
 import os
 from Bio import SeqIO
 import argparse
+import inspect
 
 #get script path for directory
 script_path = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
